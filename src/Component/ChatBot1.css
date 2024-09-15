@@ -1,0 +1,73 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    
+}
+.input-prompt{
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+}
+input{
+    width: 80%;
+    height: 40px;
+}
+.btn{
+    width: 15%;
+    height: 40px;
+}
+.content{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+.cardPrompt{
+    width: 150px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: left;
+    background-color: #505050; /* Light background for prompts */
+    align-self: flex-end; /* Align this card to the right */
+    margin-left: 50vw;
+    color: white;
+ }
+ .cardResponse{
+    width: 150px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: left;
+    background-color: #9c67f2; /* Light background for responses */
+    align-self: flex-start; /* Align this card to the left */
+    color: white;
+ }
+ .messages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+ }

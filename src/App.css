@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-logo {
+  height: 30vmin; /* Slight reduction in size */
+  pointer-events: none;
+  transition: transform 0.5s ease-in-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+.App-logo:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.App-header {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Warm gradient background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); 
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.App-link {
+  color: #f6d365; /* Light orange for the links */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.App-link:hover {
+  color: #fda085; /* Darker orange on hover */
+  transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* New button style with vibrant colors */
+button {
+  background-color: #ff6f61; /* Warm coral color */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8566; /* Lighter coral on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
